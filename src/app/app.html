@@ -230,8 +230,14 @@
           <clipPath id="a"><path fill="#fff" d="M0 0h982v239H0z" /></clipPath>
         </defs>
       </svg>
-      <h1>Hello, {{ title() }}</h1>
+      <h1>Hello, {{ title() + ' - Bài 1'}}</h1>
+      <p>Thử toán: {{ 1 + 1 }}</p>
       <p>Congratulations! Your app is running. 🎉</p>
+      <!-- Bài 1: Component con mẫu — xem src/app/lessons/01-component-basic/ -->
+      <p>Sản phẩm: {{ product.name }}, giá: {{ product.price }}</p>
+      <app-greeting />
+      <p>Count: {{ count() }}</p>
+      <button type="button" (click)="increment()">Tăng</button>
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">

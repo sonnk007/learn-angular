@@ -1,0 +1,32 @@
+.greeting-box {
+  padding: 1rem;
+  border: 1px solid oklch(50% 0.2 263);
+  border-radius: 8px;
+  background: oklch(98% 0.01 263);
+  margin: 1rem 0;
+}
+
+.greeting-text {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.hint {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.875rem;
+  color: oklch(45% 0.02 263);
+}
+
+.greeting-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background: oklch(51% 0.274 263.83);
+  color: white;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.greeting-btn:hover {
+  background: oklch(45% 0.27 263);
+}
